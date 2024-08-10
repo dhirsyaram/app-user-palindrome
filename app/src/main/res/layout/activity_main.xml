@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context=".ui.MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/desc_photo"
+        android:src="@drawable/ic_person_plus"
+        app:civ_circle_background_color="@color/metallic_blue"
+        app:layout_constraintEnd_toEndOf="@id/layout_input_username"
+        app:layout_constraintStart_toStartOf="@id/layout_input_username"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_input_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        android:textColorHint="@color/black"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_photo">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_text_input"
+            android:hint="@string/hint_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_input_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:hintTextColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/layout_input_username"
+        app:layout_constraintStart_toStartOf="@id/layout_input_username"
+        app:layout_constraintTop_toBottomOf="@id/layout_input_username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_check_palindrome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_text_input"
+            android:hint="@string/hint_palindrome" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_check"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/metallic_blue"
+        android:text="@string/check"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="@id/layout_input_palindrome"
+        app:layout_constraintStart_toStartOf="@id/layout_input_palindrome"
+        app:layout_constraintTop_toBottomOf="@id/layout_input_palindrome" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/metallic_blue"
+        android:text="@string/next"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="@id/btn_check"
+        app:layout_constraintStart_toStartOf="@id/btn_check"
+        app:layout_constraintTop_toBottomOf="@id/btn_check" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

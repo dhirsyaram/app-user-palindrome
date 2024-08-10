@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">App Palindrome User</string>
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+    <string name="desc_photo">Icon Add Photo</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_palindrome">Palindrome</string>
+    <string name="title_second">Second Screen</string>
+    <string name="title_third">Third Screen</string>
+    <string name="desc_btn_back">Back</string>
+    <string name="welcome">Welcome</string>
+    <string name="username">John</string>
+    <string name="choose_user">Choose a User</string>
+    <string name="selected_user">Selected User Name</string>
+    <string name="email">Email@Email.com</string>
+    <string name="name_user">Firstname Lastname</string>
+    <string name="retry">Try Again</string>
+</resources>
