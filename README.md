@@ -45,13 +45,9 @@ Check out the demo of the application: [Demo App](https://github.com/user-attach
 |:-----------------------------------------:|:---------------------------------------------------:|
 | *Main Activity showing palindrome check and username input* | *Validation result for a palindrome check* |
 
-| ![Second Activity](https://github.com/user-attachments/assets/76a4c7eb-1dc1-4d6e-b039-0bbde962c7ad)
-|:---------------------------------------------:|
-| *Second Activity displaying username passed from MainActivity and ThirdActivity* |
-
-![User List Activity](https://github.com/user-attachments/assets/8b6f779a-95a8-4041-8df5-e4828440d457)
-|:---------------------------------------------:|
-| *User List Activity displaying fetched user data* |
+| ![Second Activity](https://github.com/user-attachments/assets/76a4c7eb-1dc1-4d6e-b039-0bbde962c7ad) | ![Third Activity](https://github.com/user-attachments/assets/8b6f779a-95a8-4041-8df5-e4828440d457) |
+|:---------------------------------------------:|:---------------------------------------------:|
+| *Second Activity displaying username passed from MainActivity and ThirdActivity* | *Third Activity displaying fetched user data* |
 
 ## How to Use
 
