@@ -13,29 +13,6 @@ This application demonstrates two core functionalities:
 - **Navigation**: Navigate between different activities with smooth transitions and data passing.
 
 ## Demo
-Check out the demo of the application: [Demo App](https://github.com/user-attachments/assets/97364f54-a407-44e3-ba32-43f647c9f785)
-
-
-Memory updated
-Tentu! Berikut adalah template untuk file README.md yang bisa kamu gunakan untuk repositori publik GitHub-mu:
-
-markdown
-Copy code
-# Palindrome Checker and User List App
-
-## Overview
-
-This application demonstrates two core functionalities:
-1. **Palindrome Checker**: Users can input a sentence to check if it is a palindrome.
-2. **User List**: Displays a list of users fetched from an API.
-
-## Features
-
-- **Palindrome Checking**: Enter a sentence to determine if it reads the same backward as forward.
-- **User List Display**: Fetches and displays a paginated list of users from a remote API.
-- **Navigation**: Navigate between different activities with smooth transitions and data passing.
-
-## Demo
 
 Check out the demo of the application: [Demo App](https://github.com/user-attachments/assets/97364f54-a407-44e3-ba32-43f647c9f785)
 
